@@ -1,3 +1,0 @@
-dubbo=com.luoylooo.general.test.service.dubbo.spi.adaptive.DubboAdaptiveExt2
-cloud=com.luoylooo.general.test.service.dubbo.spi.adaptive.SpringCloudAdaptiveExt2
-thrift=com.luoylooo.general.test.service.dubbo.spi.adaptive.ThriftAdaptiveExt2
