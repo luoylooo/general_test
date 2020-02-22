@@ -6,9 +6,6 @@ import com.alibaba.dubbo.common.extension.ExtensionLoader;
 import com.luoylooo.general.test.service.dubbo.spi.adaptive.AdaptiveExt2;
 import org.junit.Test;
 
-/**
- * @author linyang on 18/4/18.
- */
 public class AdaptiveTest {
 
     /**

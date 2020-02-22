@@ -7,10 +7,6 @@ import org.junit.Test;
 
 import java.util.List;
 
-
-/**
- * @author linyang on 18/4/18.
- */
 public class ActivateTest {
 
     /**
