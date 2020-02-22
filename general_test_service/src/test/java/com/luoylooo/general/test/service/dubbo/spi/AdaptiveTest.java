@@ -8,6 +8,13 @@ import org.junit.Test;
 
 public class AdaptiveTest {
 
+    @Test
+    public void extensionMethod() {
+        ExtensionLoader<AdaptiveExt2> loader = ExtensionLoader.getExtensionLoader(AdaptiveExt2.class);
+        AdaptiveExt2 adaptiveExt2 = loader.getExtension("dubbo");
+        System.out.printf(adaptiveExt2.echo("", URL.valueOf("test://localhost/test?adaptive.ext2=cloud")));
+    }
+
     /**
      * @SPI("dubbo") 如果在spi中没有体现，那么需要在url中有所体现
      */

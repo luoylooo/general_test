@@ -1,0 +1,5 @@
+group=com.luoylooo.general.test.service.dubbo.spi.activate.GroupActivateExtImpl
+value=com.luoylooo.general.test.service.dubbo.spi.activate.ValueActivateExtImpl
+order1=com.luoylooo.general.test.service.dubbo.spi.activate.OrderActivateExtImpl1
+order2=com.luoylooo.general.test.service.dubbo.spi.activate.OrderActivateExtImpl2
+com.luoylooo.general.test.service.dubbo.spi.activate.ActivateExt1Impl1
