@@ -12,7 +12,7 @@
         <module>general_test_service</module>
     </modules>
     <properties>
-        <dubbo.version>2.5.3</dubbo.version>
+        <dubbo.version>2.6.5</dubbo.version>
         <junit.version>4.12</junit.version>
 
     </properties>

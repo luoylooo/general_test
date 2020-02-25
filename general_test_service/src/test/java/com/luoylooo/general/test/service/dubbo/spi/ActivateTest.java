@@ -50,7 +50,7 @@ public class ActivateTest {
         //根据   key = value1,group =  value
         //@Activate(value = {"value1"}, group = {"value"})来激活扩展
         url = url.addParameter("value1", "123");
-        List<ActivateExt1> list = ExtensionLoader.getExtensionLoader(ActivateExt1.class).getActivateExtension(url, new String[]{}, "value");
+        List<ActivateExt1> list = ExtensionLoader.getExtensionLoader(ActivateExt1.class).getActivateExtension(url, new String[]{"value"}, "valueGroup");
         //value-----------@com.alibaba.dubbo.common.extension.Activate(after=[], before=[], value=[value1], order=0, group=[value])
         System.out.println(list.size());
         //com.alibaba.dubbo.common.extensionloader.activate.impl.ValueActivateExtImpl
